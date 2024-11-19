@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1@sha256:865e5dd094beca432e8c0a1d5e1c465db5f998dca4e439981029b3b81fb39ed5
 
 # renovate: datasource=docker depName=debian
-ARG BASE_VERSION=bookworm
+ARG BASE_VERSION=bookworm@sha256:10901ccd8d249047f9761845b4594f121edef079cfd8224edebd9ea726f0a7f6
 
 FROM debian:${BASE_VERSION:-latest} AS base
 

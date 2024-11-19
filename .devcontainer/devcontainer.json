@@ -18,7 +18,7 @@
     },
     "workspaceFolder": "/home/vscode/debian",
     "features": {
-        "ghcr.io/yhs88a/devcontainer/common-utils:1": {},
-        "ghcr.io/yhs88a/devcontainer/docker-in-docker:1": {}
+        "ghcr.io/yhs88a/devcontainer/common-utils:1@sha256:c7569f0ed89459bb27b5a570905670da153a9d352bab8c916961fddb2cd17d7a": {},
+        "ghcr.io/yhs88a/devcontainer/docker-in-docker:1@sha256:8332474f4132b4d3015d59057d4aab7d41c8f40ec227f65360c42d3d8919a094": {}
     }
 }

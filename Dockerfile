@@ -16,6 +16,6 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && ln -fs /usr/share/zoneinfo/Asia/Singapore /etc/localtime \
     && dpkg-reconfigure --frontend noninteractive tzdata \
     && locale-gen en_US.UTF-8 \
-    && update-locale LANG=en_US.UTF-8
+    && update-locale
 
 USER root
